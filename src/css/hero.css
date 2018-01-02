@@ -1,0 +1,11 @@
+.hero{
+    height: 75vh;
+    background-color: #323232;
+    color: #fff;
+    
+}
+
+.hero-container{
+    padding: 50px;
+    font-size: 32px;
+}
