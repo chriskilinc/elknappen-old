@@ -9,3 +9,8 @@
     padding: 50px;
     font-size: 32px;
 }
+
+.content{
+    
+    white-space:pre-wrap !important;
+}
