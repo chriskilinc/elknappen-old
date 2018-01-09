@@ -7,9 +7,7 @@ class Hero extends Component {
 		return (
 			<section className="hero">
 				<div className="hero-container">
-					<p className="title">{this.props.articleTitle}</p>
-					<p className="content">{this.props.articleContent}</p>
-					<p>id: {this.props.articleId}</p>
+					<h1>Hero</h1>
 				</div>
 			</section>
 		);
