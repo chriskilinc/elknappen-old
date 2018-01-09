@@ -18,7 +18,7 @@
   margin: 0;
 }
 .nav-menu{
-  
+  text-transform: uppercase;
 }
 .nav-menu-container{
   margin-left: auto; 
@@ -88,7 +88,18 @@
   }
 
 }
+
+@media (max-width:1500px) {
+  .nav-menu a{
+    font-size: 38px;
+    padding: 0px 10px;
+    
+  }
+}
 @media (max-width:1200px) {
+  .nav-logo h1{
+    font-size:42px;
+  }
   .nav-menu a{
     font-size: 24px;
     padding: 0px 10px;
@@ -97,6 +108,7 @@
     transform: translateY(-50%);
   }
 }
+
 
 .vertical-align{
   position: relative;
