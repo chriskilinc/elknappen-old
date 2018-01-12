@@ -1,0 +1,21 @@
+button{
+  color: #fff;
+  padding: 10px 44px;
+  border:2px solid #fff;
+  background: transparent;
+  margin: 5px 5px;
+  transition: 0.1s ease-out;
+
+}
+button:hover{
+  cursor: pointer;
+  color: #F95951;
+  background: #fff;
+  
+}
+
+@media(max-width:992px){ 
+  button{
+    font-size: 20px;
+  }
+}
