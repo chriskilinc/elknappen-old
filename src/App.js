@@ -4,7 +4,7 @@ import './App.css';
 import Navigation from './Components/Navigation';
 import Hero from './Components/Hero';
 import Services from './Components/Services';
-
+import Credit from './Components/Credit';
 
 class App extends Component {
 
@@ -16,6 +16,7 @@ class App extends Component {
         </header>
         < Hero />
         < Services />
+        
       </div>
     );
   }
