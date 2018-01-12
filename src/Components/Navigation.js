@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/navigation.css';
+import Logo from '../images/logo.jpg';
 
 class Navigation extends Component {
 
@@ -10,7 +11,7 @@ class Navigation extends Component {
           <div className="nav-container container-fluid row">
             <div className="nav-logo col-md-5 col-lg-4 col-12 container-fluid row">
               <div className="col-8">
-                <h1>Elknappen</h1>
+                <a href=""><img src={Logo} class="img-fluid" alt="Responsive image" /></a>
               </div>
 
               <div className="col-4">
@@ -25,10 +26,10 @@ class Navigation extends Component {
             <div className="nav-menu col-md-7 col-lg-8 row">
               <div className="nav-menu-container">
                 <a href="#">Hem</a>
-                <a href="#">Tjänster</a>
-                <a href="#">Projekt</a>
-                <a href="#">Om</a>
-                <a href="#">Kontakt</a>
+                <a href="#services">Tjänster</a>
+                <a href="#projects">Projekt</a>
+                <a href="#about">Om</a>
+                <a href="#contact">Kontakt</a>
               </div>
 
             </div>
