@@ -1,6 +1,7 @@
 .nav-wrapper{
   height:10vh;
   color: #323232;
+  border-bottom: 1px solid #fff;
 }
 .nav-container{
   height:100%;
@@ -35,6 +36,16 @@
   color: #323232;
   padding: 1rem 25px;
   
+}
+.nav-menu a:hover{
+  color: #F95951;
+  transition: 0.1s ease-out;
+  text-decoration: none;
+}
+.nav-menu a:focus{
+  color: #F95951;
+  transition: 0.1s ease-out;
+  text-decoration: none;
 }
 
 /* MOBILE BARS */
@@ -76,14 +87,12 @@
   .nav-menu a{
     font-size: 32px;
     padding: 0px 10px;
-    position: relative;
-    top: 20%;
-    transform: translateY(-50%);
+    
   }
 }
 @media (max-width:1200px) {
   .nav-logo h1{
-    font-size:42px;
+    font-size:52px;
   }
   .nav-menu a{
     font-size: 22px;
@@ -102,11 +111,6 @@
     max-width: none;
     flex:0 0 100%;
   }
-   .mobile-bars{
-     display: block;
-     
-     
-   }
    .nav-logo h1{
      font-size:2rem;
    }

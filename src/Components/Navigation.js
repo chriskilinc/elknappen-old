@@ -11,7 +11,7 @@ class Navigation extends Component {
           <div className="nav-container container-fluid row">
             <div className="nav-logo col-md-5 col-lg-4 col-12 container-fluid row">
               <div className="col-8">
-                <a href=""><img src={Logo} class="img-fluid" alt="Responsive image" /></a>
+                <a href=""><img src={Logo} className="img-fluid" alt="Logo" /></a>
               </div>
 
               <div className="col-4">
