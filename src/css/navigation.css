@@ -3,14 +3,15 @@
   color: #323232;
 }
 .nav-container{
+  height:100%;
   margin: 0;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  
 }
 
 .nav-logo{
   padding:0;
+  margin: 0;
+  align-items: center;
 }
 .nav-logo h1{
   font-size: 52px;
@@ -19,15 +20,17 @@
 }
 .nav-menu{
   text-transform: uppercase;
+  align-items: center;
 }
 .nav-menu-container{
   margin-left: auto; 
   
 }
 .nav-menu a{
-  font-size: 42px;
+
+  font-size: 38px;
   color: #323232;
-  padding: 0px 25px;
+  padding: 1rem 25px;
   
 }
 
@@ -35,7 +38,9 @@
 .mobile-bars{
   display: none;
   width:70px;
+  
   float: right;
+  align-items: center;
 }
 .mobile-bars div{
   height: 4px;
@@ -62,38 +67,15 @@
 
 /* MEDIA QUERRY FOR MOBILE */
 
-@media(max-width:768px){
-  .mobile-bars{
-    display: block;
-  }
-  .nav-logo h1{
-    font-size:2rem;
-  }
-  .nav-menu{
-    position: fixed;
-    display: none;
-    z-index: 2;
-    height: 90vh;
-    margin-top: 8vh;
-    background: #323232;
-    text-align: center;
-  }
-  .nav-menu a{
-    width:100%;
-    display: block;
-    font-size: 26px;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0px;
-  }
 
-}
 
 @media (max-width:1500px) {
   .nav-menu a{
-    font-size: 38px;
+    font-size: 32px;
     padding: 0px 10px;
-    
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
   }
 }
 @media (max-width:1200px) {
@@ -101,15 +83,59 @@
     font-size:42px;
   }
   .nav-menu a{
-    font-size: 24px;
+    font-size: 22px;
     padding: 0px 10px;
     position: relative;
     top: 25%;
     transform: translateY(-50%);
   }
 }
+@media(max-width:882px){
+  .nav-menu a{
+    font-size: 18px;
+  }
+}
 
-
+@media(max-width:768px){
+  
+   .mobile-bars{
+     display: block;
+     
+     
+   }
+   .nav-logo h1{
+     font-size:2rem;
+   }
+   .nav-menu{
+     position: fixed;
+     display: none;
+     z-index: 2;
+     height: 90vh;
+     margin-top: 8vh;
+     background: #323232;
+     text-align: center;
+   }
+   .nav-menu a{
+     width:100%;
+     display: block;
+     font-size: 26px;
+     color: #fff;
+     text-align: center;
+     padding: 10px 0px;
+     
+     
+   }
+ 
+ }
+ 
+ @media(max-width:767px){
+   .mobile-bars{
+     display: block;
+   }
+ 
+ 
+ }
+ 
 .vertical-align{
   position: relative;
   top: 50%;
