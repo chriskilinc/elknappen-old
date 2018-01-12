@@ -17,38 +17,3 @@
 }
 
 
-.hero-card-container{
-    text-align: center;
-    padding: 50px 0px;
-}
-.hero-card h1{
-    font-size:82px;
-}
-.hero-card p{
-    font-size: 42px;
-}
-
-@media(max-width:992px){
-    .hero-card h1{
-        font-size:72px;
-    }
-    .hero-card p{
-        font-size: 32px;
-    }
-}
-@media(max-width:768px){
-    .hero-card h1{
-        font-size:42px;
-    }
-    .hero-card p{
-        font-size: 22px;
-    }
-}
-@media(max-width:576px){
-    .hero-card h1{
-        font-size:32px;
-    }
-    .hero-card p{
-        font-size: 18px;
-    }
-}
