@@ -1,0 +1,32 @@
+footer{
+    background: #323232;
+    color: #fff;
+    padding: 7.5vw 12.5vw;
+    
+    
+}
+.footer-container{
+    
+}
+
+footer h1{
+    font-size: 34px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer p{
+    font-size: 16px;
+    color: #ebd7fa;
+}
+
+.footer-right{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+@media(max-width:767px){ 
+  .footer-right{
+      padding: 20px 0px;
+  }
+}
