@@ -5,6 +5,7 @@ button{
   background: transparent;
   margin: 5px 5px;
   transition: 0.1s ease-out;
+  font-size: 28px;
 
 }
 button:hover{

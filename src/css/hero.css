@@ -1,5 +1,6 @@
 .hero{
     height: 55vh;
+    min-height: 400px;
     background-color: #323232;
     
     
