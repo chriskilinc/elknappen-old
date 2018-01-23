@@ -4,6 +4,25 @@ import Logo from '../images/logo.jpg';
 
 class Navigation extends Component {
 
+  constructor(props){
+    super(props);
+    this.state = {
+      isMenuOpen: false,
+    }
+    const menuStyle = {
+      display: 'none',
+    }
+  }
+
+  toggleMenu = () =>
+    this.setState({isMenuOpen: !this.state.isMenuOpen});
+
+  onMenuClick = () =>
+    this.setState({isMenuOpen: false});
+
+
+    
+
   render() {
     return (
       <nav className="navigation">
@@ -15,7 +34,7 @@ class Navigation extends Component {
               </div>
 
               <div className="col-4">
-                <div className="mobile-bars">
+                <div className="mobile-bars" onClick={this.toggleMenu}>
                   <div></div>
                   <div></div>
                   <div></div>
@@ -23,16 +42,29 @@ class Navigation extends Component {
               </div>
 
             </div>
-            <div className="nav-menu col-md-7 col-lg-8 row">
-              <div className="nav-menu-container">
-                <a href="#">Hem</a>
-                <a href="#services">Tjänster</a>
-                <a href="#projects">Projekt</a>
-                <a href="#about">Om</a>
-                <a href="#contact">Kontakt</a>
+            
+            <div className="nav-menu col-md-7 col-lg-8 row" style={this.menuStyle}>
+                <div className="nav-menu-container">
+                  <a href="#" onClick={this.onMenuClick}>Hem</a>
+                  <a href="#services" onClick={this.onMenuClick}>Tjänster</a>
+                  <a href="#projects" onClick={this.onMenuClick}>Projekt</a>
+                  <a href="#about" onClick={this.onMenuClick}>Om</a>
+                  <a href="#contact" onClick={this.onMenuClick}>Kontakt</a>
+                </div>
               </div>
 
-            </div>
+            {/*this.state.isMenuOpen ? 
+              <div className="nav-menu col-md-7 col-lg-8 row">
+                <div className="nav-menu-container">
+                  <a href="#" onClick={this.onMenuClick}>Hem</a>
+                  <a href="#services" onClick={this.onMenuClick}>Tjänster</a>
+                  <a href="#projects" onClick={this.onMenuClick}>Projekt</a>
+                  <a href="#about" onClick={this.onMenuClick}>Om</a>
+                  <a href="#contact" onClick={this.onMenuClick}>Kontakt</a>
+                </div>
+              </div>
+            : null */}
+
           </div>
         </div>
       </nav>
