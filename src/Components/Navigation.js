@@ -39,7 +39,7 @@ class Navigation extends Component {
             
             <div className="nav-menu col-md-7 col-lg-8 row">
                 <div className="nav-menu-container">
-                  <button onClick={closeMobileMenu}>X</button>
+                  <button>X</button>
                   <a href="#">Hem</a>
                   <a href="#services">Tjänster</a>
                   <a href="#projects">Projekt</a>
