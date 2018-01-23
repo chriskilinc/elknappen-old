@@ -48,6 +48,13 @@
   text-decoration: none;
 }
 
+.nav-menu button{
+  display: none;
+  margin: 15px 0px;
+  
+    
+  }
+
 /* MOBILE BARS */
 .mobile-bars{
   display: none;
@@ -117,7 +124,7 @@
    
    .nav-menu{
      position: fixed;
-     display: none;
+     display: block;
      z-index: 2;
      height: 90vh;
      margin-top: 0vh;
@@ -133,6 +140,9 @@
      padding: 10px 0px;
      
      
+   }
+   .nav-menu button{
+     display: block;
    }
  
  }
