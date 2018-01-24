@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Navigation from './Components/Navigation';
-import NavigationContainer from './Components/NavigationContainer';
 import Hero from './Components/Hero';
 import Services from './Components/Services';
 import Projects from './Components/Projects';

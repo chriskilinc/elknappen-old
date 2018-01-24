@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../css/navigation.css';
 import '../css/navigationMobile.css';
 import Logo from '../images/logo.jpg';
-import NavigationMobile from './NavigationMobile';
+
 
 class Navigation extends Component {
 
