@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
 import '../css/navigation.css';
+import '../css/navigationMobile.css';
 import Logo from '../images/logo.jpg';
+import NavigationMobile from './NavigationMobile';
 
 class Navigation extends Component {
 
   constructor(props){
     super(props);
     this.state = {
-      isMenuOpen: false,
+      isMobileMenuOpen: false,
     }
     
   }
 
-  closeMobileMenu = () => {
-    // nav-menu { display: none; }
-    
-  }
+  toggleMenu = () =>
+    this.setState({isMobileMenuOpen: !this.state.isMobileMenuOpen});
 
   render() {
     return (
@@ -28,7 +28,7 @@ class Navigation extends Component {
               </div>
 
               <div className="col-4">
-                <div className="mobile-bars">
+                <div className="mobile-bars" onClick={this.toggleMenu}>
                   <div></div>
                   <div></div>
                   <div></div>
@@ -39,14 +39,28 @@ class Navigation extends Component {
             
             <div className="nav-menu col-md-7 col-lg-8 row">
                 <div className="nav-menu-container">
-                  <button>X</button>
                   <a href="#">Hem</a>
                   <a href="#services">Tjänster</a>
                   <a href="#projects">Projekt</a>
                   <a href="#about">Om</a>
                   <a href="#contact">Kontakt</a>
                 </div>
+            </div>
+
+            {this.state.isMobileMenuOpen ? 
+            
+            <div className="menu-mobile row">
+              <div className="menu-mobile-container">
+                <button onClick={this.toggleMenu}>X</button>
+                <a href="#" onClick={this.toggleMenu}>Hem</a>
+                <a href="#services" onClick={this.toggleMenu}>Tjänster</a>
+                <a href="#projects" onClick={this.toggleMenu}>Projekt</a>
+                <a href="#about" onClick={this.toggleMenu}>Om</a>
+                <a href="#contact" onClick={this.toggleMenu}>Kontakt</a>
               </div>
+            </div>
+
+            : null}
 
           </div>
         </div>
