@@ -2,3 +2,12 @@
     background: #323232;
     color:#fff;
 }
+
+.projects .contents{
+    color: hsl(0,0%,100%);
+    
+}
+.projects .contents p{
+    color: hsl(0,0%,95%);
+    
+}

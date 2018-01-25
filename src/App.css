@@ -4,6 +4,7 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    color: hsl(0,0%,20%);
   }
   
   p, h1,h2,h3{
@@ -22,6 +23,7 @@ body {
     padding: 20px;
   }
   .contents p{
+    color: hsl(0,0%,22.5%);
     font-size: 20px;
     
   }
