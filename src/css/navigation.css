@@ -1,6 +1,6 @@
 .nav-wrapper{
   height:10vh;
-  color: #323232;
+  color: hsl(0,0%,20%);
   border-bottom: 1px solid #fff;
 }
 .nav-container{

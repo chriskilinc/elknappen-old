@@ -7,7 +7,7 @@ class Footer extends Component {
 
   render() {
     return (
-        <footer id="contact">
+        <footer id="footer">
           <div className="footer-container row">
             <div className="col-12 col-md-6">
               <h1>elknappen.se</h1>
@@ -19,6 +19,7 @@ class Footer extends Component {
             </div>
             <div className="col-12 col-md-6 footer-right ">
               <ButtonNormal content={"CONTACT"} url={"http://www.example.com"}/>
+              
             </div>
             
           </div>
