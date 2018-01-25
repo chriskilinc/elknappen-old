@@ -23,11 +23,11 @@ class Navigation extends Component {
         <div className="nav-wrapper">
           <div className="nav-container container-fluid row">
             <div className="nav-logo col-md-5 col-lg-4 col-12 container-fluid row">
-              <div className="col-8">
+              <div className="col-8 col-sm-10">
                 <a href=""><img src={Logo} className="img-fluid" alt="Logo" /></a>
               </div>
 
-              <div className="col-4">
+              <div className="col-4 col-sm-2">
                 <div className="mobile-bars" onClick={this.toggleMenu}>
                   <div></div>
                   <div></div>
