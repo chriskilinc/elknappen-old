@@ -49,14 +49,14 @@
 
 .nav-menu button{
   display: none;
-  margin: 15px 0px;
+  
 }
 
 /* MOBILE BARS */
 .mobile-bars{
   display: none;
   width:70px;
-  
+  padding: 0px 0.25rem;
   float: right;
   align-items: center;
 }
@@ -67,6 +67,7 @@
   margin-top: 6px; 
   margin-bottom: 6px;
   transition: all .2s ease-in;
+  
 }
 .mobile-bars div:nth-child(1){
   
