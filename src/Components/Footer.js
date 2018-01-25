@@ -7,11 +7,11 @@ class Footer extends Component {
 
   render() {
     return (
-        <footer>
+        <footer id="contact">
           <div className="footer-container row">
             <div className="col-12 col-md-6">
               <h1>elknappen.se</h1>
-              <p>That Way, That Town xxx</p>
+              <p>142 64 Trångsund</p>
               <p>example@email.com</p>
               <p>073 - xxx xx xx</p>
               
@@ -22,7 +22,7 @@ class Footer extends Component {
             </div>
             
           </div>
-
+          
         </footer>
     );
   }

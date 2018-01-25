@@ -7,7 +7,7 @@ import Services from './Components/Services';
 import Projects from './Components/Projects';
 import About from './Components/About';
 import Footer from './Components/Footer';
-
+import CreatorDetails from './Components/CreatorDetails';
 import Credit from './Components/Credit';
 
 class App extends Component {
@@ -22,7 +22,7 @@ class App extends Component {
           < Projects />
           < About />
           < Footer />
-        
+          < CreatorDetails />
       </div>
     );
   }
