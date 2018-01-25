@@ -9,7 +9,7 @@ class HeroCard extends Component {
       <div className="hero-card col-12">
         <div className="hero-card-container">
           <h1>ELINSTALLATIONER</h1>
-          <p>Av behörig Elektriker</p>
+          <p>Av behörig Elektriker i Stockholm</p>
           < ButtonNormal content="Tjänster" url="/#services"/>
           < ButtonNormal content="Om Elknappen" url="/#about"/>
         </div>

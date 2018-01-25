@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    
+    text-align: center;
   }
   
   p, h1,h2,h3{
@@ -11,7 +11,7 @@ body {
   }
   
   .contents{
-    padding: 20px;
+    padding: 75px 20px;
     min-height: 75vh;
   }
   .contents h1{
@@ -21,9 +21,19 @@ body {
   .contents-container{
     padding: 20px;
   }
-  .contents-container p{
-    font-size: 28px;
+  .contents p{
+    font-size: 20px;
+    
   }
   .align-center{
     text-align: center;
+  }
+
+  @media(max-width:375px){
+    .contents h1{
+      font-size:42px;
+    }
+    .contents p{
+      font-size: 16px;
+    }
   }
